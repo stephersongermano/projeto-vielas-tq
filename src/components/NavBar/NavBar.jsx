@@ -1,17 +1,19 @@
-import React, { useState } from "react";
 import { IoMenuSharp, IoClose } from "react-icons/io5";
-import NavbarStyled from "./navbarStyle";
+import {
+  NavbarStyled,
+  NavbarMenu,
+  NavbarLogin,
+  NavbarTitle,
+} from "./navbarStyle";
 
 const Navbar = () => {
   return (
     <NavbarStyled>
-      <NavbarStyled.NavbarLinksContainer>
-        <NavbarStyled.NavbarMenu>
-          <IoMenuSharp color="#ffffff" size={41} />
-        </NavbarStyled.NavbarMenu>
-        <NavbarStyled.NavbarTitle>VIELAS</NavbarStyled.NavbarTitle>
-        <NavbarStyled.NavbarSign>login</NavbarStyled.NavbarSign>
-      </NavbarStyled.NavbarLinksContainer>
+      <NavbarMenu>
+        <IoMenuSharp color="#ffffff" size={40} />
+      </NavbarMenu>
+      <NavbarTitle>VIELAS</NavbarTitle>
+      <NavbarLogin>login</NavbarLogin>
     </NavbarStyled>
   );
 };

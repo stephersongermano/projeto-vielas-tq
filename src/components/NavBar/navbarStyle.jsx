@@ -1,39 +1,28 @@
 import styled from "styled-components";
 
-const NavbarStyled = styled.div`
+export const NavbarStyled = styled.div`
   background: #4761b4;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   max-height: 100px;
-`;
-
-NavbarStyled.NavbarLinksContainer = styled.div`
   display: flex;
   align-items: center;
-  flex-direction: row;
+  justify-content: space-between;
 `;
 
-NavbarStyled.NavbarSign = styled.div`
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  color: #ffffff;
-`;
-
-NavbarStyled.NavbarTitle = styled.h1`
-  width: 700px;
+export const NavbarTitle = styled.h1`
+  flex: 2;
+  width: 270px;
   text-align: left;
   padding-left: 15px;
   letter-spacing: 0px;
   color: #ffffff;
-  opacity: 1;
 `;
 
-NavbarStyled.NavbarMenu = styled.div`
-  text-align: center;
-  margin-left: 1rem;
-  position: center;
+export const NavbarLogin = styled.div`
+  flex: 1;
+  color: #ffffff;
+  font: normal normal normal 30px/45px Space Mono;
 `;
 
-export default NavbarStyled;
+export const NavbarMenu = styled.div`
+  margin: 5px 5px 5px 20px;
+`;

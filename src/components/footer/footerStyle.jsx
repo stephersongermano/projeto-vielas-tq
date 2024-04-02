@@ -1,20 +1,58 @@
 import styled from "styled-components";
 
-const FooterStyled = styled.div`
+export const FooterStyled = styled.footer`
   background: #e5401b;
   display: flex;
-  width: 100%;
-  height: 430px;
+  width: 100vw;
+  height: 40vh;
 `;
 
-FooterStyled.FooterVielas = styled.div`
-  flex: 2;
-  color: #ffffff;
-`;
-
-FooterStyled.FooterLinksContainer = styled.div`
+export const FooterVielas = styled.h1`
   flex: 1;
-  color: black;
+  max-width: 50%;
+  color: #ffffff;
+  justify-content: flex-end;
+  padding: 2% 1.5% 0% 30%;
 `;
 
-export default FooterStyled;
+export const FooterContainer = styled.div`
+  flex: 1;
+`;
+
+export const FooterTags = styled.div`
+  color: #000000;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  max-height: 30%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+
+  .tag {
+    padding-left: 5px;
+    font-size: 2rem;
+  }
+`;
+
+export const FooterLinks = styled.div`
+  color: #000000;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-height: 70%;
+
+  text-align: left;
+  font: normal normal normal 28px/41px Space Mono;
+  letter-spacing: 0px;
+  opacity: 1;
+
+  li {
+    list-style-type: none;
+  }
+
+  a {
+    font-size: 1.4rem;
+    margin-bottom: 5px;
+    text-decoration: none;
+  }
+`;
