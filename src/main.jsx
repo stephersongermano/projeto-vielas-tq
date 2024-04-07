@@ -1,13 +1,12 @@
 import React from "react";
+import "swiper/css";
 import ReactDOM from "react-dom/client";
 import { GlobalStyle } from "./GlobalStyle";
-import Navbar from "./components/NavBar/NavBar";
-import Footer from "./components/footer/Footer";
+import Home from "./pages/Home/Home";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <GlobalStyle />
-    <Navbar />
-    <Footer />
+    <Home />
   </React.StrictMode>
 );

@@ -42,7 +42,7 @@ export const FooterLinks = styled.div`
   max-height: 70%;
 
   text-align: left;
-  font: normal normal normal 28px/41px Space Mono;
+  font: normal normal normal 28px/41px;
   letter-spacing: 0px;
   opacity: 1;
 

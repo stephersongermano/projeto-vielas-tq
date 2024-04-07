@@ -20,7 +20,7 @@ export const NavbarTitle = styled.h1`
 export const NavbarLogin = styled.div`
   flex: 1;
   color: #ffffff;
-  font: normal normal normal 30px/45px Space Mono;
+  font: normal normal normal 30px/45px;
 `;
 
 export const NavbarMenu = styled.div`
