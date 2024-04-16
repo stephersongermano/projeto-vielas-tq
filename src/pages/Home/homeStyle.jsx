@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const HomeContainer = styled.div`
   background-color: #ffffff;
+  height: 100%;
 `;
 
 export const HomeHashTags = styled.div`
@@ -26,8 +27,9 @@ export const HomeHashTags = styled.div`
 
 export const HomeMiddle = styled.div`
   display: flex;
-  height: 600px;
+  height: 65vh;
   width: 100%;
+  margin: 5px 5vw 5px 5vw;
 `;
 
 export const HomeMiddleDiv = styled.div`
@@ -35,7 +37,7 @@ export const HomeMiddleDiv = styled.div`
   display: flex;
   flex-direction: column-reverse;
   align-items: space-between;
-  height: 100%;
+  height: 60vh;
   width: 30vw;
   color: #ffffff;
   margin: 20px 15px 15px 50px;
@@ -52,5 +54,17 @@ export const HomeMiddleDiv = styled.div`
     font-size: medium;
     margin-left: 10px;
     margin-right: 60px;
+  }
+`;
+
+export const HomeGrid = styled.div`
+  height: 75vh;
+  width: 100%;
+  margin: 5px 5vw 5px 5vw;
+
+  img {
+    width: 34vw;
+    height: 28vh;
+    margin-bottom: 6px;
   }
 `;
