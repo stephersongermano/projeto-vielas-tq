@@ -27,9 +27,7 @@ const Login = () => (
                 <WrapperButton>
                     <ButtonLogin>ENTRAR</ButtonLogin>
                     <Span>Esqueceu a senha? <ForgotPassword >Clique aqui</ForgotPassword></Span> 
-                </WrapperButton>
-                
-                        
+                </WrapperButton>                        
             </form>
         </DivLoginStyled>
     </WrapperLoginStyled>

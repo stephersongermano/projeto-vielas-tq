@@ -1,4 +1,4 @@
-import styled  from "styled-components";
+import styled from "styled-components";
 
 export const WrapperLoginStyled = styled.div`
   display:flex;
@@ -58,7 +58,6 @@ export const WrapperButton = styled.div`
     justify-content: center;
     align-items: center;
 `;
-
 
 export const ButtonLogin = styled.button`
     width: 200px;
