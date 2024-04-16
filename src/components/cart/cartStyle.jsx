@@ -1,16 +1,15 @@
 import styled from "styled-components";
 
 export const WrapperCartStyled = styled.div`
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  padding: 50px;
-  border: 1px solid red;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
 `;
 
 export const DivCart = styled.div`
-  width: 100%;
-  height: 100%;
+    width: 100%;
+    height: 100%;
 `;
 
 export const H1 = styled.h1`
