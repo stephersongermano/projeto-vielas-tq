@@ -4,11 +4,11 @@ export const CarouselContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100%;
-  width: 60vw;
+  height: 65vh;
+  width: 54vw;
 
   img {
-    width: 100%;
-    height: 100%;
+    width: 54vw;
+    height: 60vh;
   }
 `;

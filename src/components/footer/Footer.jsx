@@ -16,8 +16,11 @@ import {
 function Footer() {
   return (
     <FooterStyled>
-      <FooterVielas>VIELAS</FooterVielas>
       <FooterContainer>
+        <FooterVielas>
+          <h1>VIELAS</h1>
+        </FooterVielas>
+
         <FooterTags>
           <SiFacebook className="tag" />
           <SiInstagram className="tag" />
@@ -25,23 +28,23 @@ function Footer() {
           <SiWhatsapp className="tag" />
           <SiLinkedin className="tag" />
         </FooterTags>
-        <FooterLinks>
-          <ul>
-            <li>
-              <a href="/quemSomos">Quem Somos</a>
-            </li>
-            <li>
-              <a href="/equipe">Equipe</a>
-            </li>
-            <li>
-              <a href="/apoie">Apoie</a>
-            </li>
-            <li>
-              <a href="faleConosco">Fale Conosco</a>
-            </li>
-          </ul>
-        </FooterLinks>
       </FooterContainer>
+      <FooterLinks>
+        <ul>
+          <li>
+            <a href="/quemSomos">Quem Somos</a>
+          </li>
+          <li>
+            <a href="/equipe">Equipe</a>
+          </li>
+          <li>
+            <a href="/apoie">Apoie</a>
+          </li>
+          <li>
+            <a href="faleConosco">Fale Conosco</a>
+          </li>
+        </ul>
+      </FooterLinks>
     </FooterStyled>
   );
 }
