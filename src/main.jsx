@@ -14,11 +14,5 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <Home />
     <Login />
     <Cart />
-
-import App from "./App";
-
-ReactDOM.createRoot(document.getElementById("root")).render(
-  <React.StrictMode>
-    <App />
   </React.StrictMode>
 );
