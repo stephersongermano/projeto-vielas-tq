@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const SearchStyle = styled.div`
   position: center;
   width: 70vw;
-  height: 70px;
+  height: 12vh;
   display: flex;
   align-items: center;
   margin-left: auto;
@@ -13,7 +13,7 @@ export const SearchStyle = styled.div`
 export const SearchInput = styled.input`
   border: 1px solid;
   border-color: black;
-  height: 30px;
+  height: 5vh;
   width: 70vw;
   border-radius: 15px;
   padding: 15px;

@@ -6,14 +6,18 @@ import {
   NavbarTitle,
 } from "./navbarStyle";
 
+import teste from "../../assets/images/image1.jpg";
+
 const Navbar = () => {
   return (
     <NavbarStyled>
       <NavbarMenu>
-        <IoMenuSharp color="#ffffff" size={40} />
+        <IoMenuSharp color="#ffffff" size={51} />
       </NavbarMenu>
       <NavbarTitle>VIELAS</NavbarTitle>
-      <NavbarLogin>login</NavbarLogin>
+      <NavbarLogin>
+        <p>login</p>
+      </NavbarLogin>
     </NavbarStyled>
   );
 };
