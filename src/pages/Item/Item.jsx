@@ -1,4 +1,4 @@
-import { GetItem } from "../../components/getItem/GetItem"
+import GetItem from "../../components/getItem/GetItem"
 
 const Item = () => {
     return(
