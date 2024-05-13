@@ -1,17 +1,16 @@
-import { SearchInput, SearchIcon, SearchStyle } from "./searchStyle";
-import { FaSearch } from "react-icons/fa";
+import React from 'react';
+import { FaSearch } from 'react-icons/fa';
+import { SearchStyle, SearchIcon, SearchInput } from './searchStyle';
 
-const Search = () => {
+const SearchBar = () => {
   return (
-    <>
-      <SearchStyle>
-        <SearchIcon>
-          <FaSearch size={20} />
-        </SearchIcon>
-        <SearchInput type="text" placeholder="BUSCA" />
-      </SearchStyle>
-    </>
+    <SearchStyle>
+      <SearchIcon>
+        <FaSearch size={20} />
+      </SearchIcon>
+      <SearchInput type="text" placeholder="BUSCA" />
+    </SearchStyle>
   );
 };
 
-export default Search;
+export default SearchBar;
