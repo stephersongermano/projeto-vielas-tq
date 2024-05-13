@@ -8,13 +8,13 @@ import Home from "./pages/Home/Home";
 import Login from "./components/login/Login";
 import Cart from "./components/cart/Cart";
 import GetItem from "./components/getItem/GetItem";
+import { BrowserRouter } from "react-router-dom";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <GlobalStyle />
-    {/* <Home />
-    <Login />
-    <Cart /> */} 
-    <GetItem />
+    <BrowserRouter>
+      <GlobalStyle />
+      <Home />
+    </BrowserRouter>
   </React.StrictMode>
 );
