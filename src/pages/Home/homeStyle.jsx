@@ -57,14 +57,38 @@ export const HomeMiddleDiv = styled.div`
   }
 `;
 
-export const HomeGrid = styled.div`
-  height: 75vh;
+export const HomeColleciton = styled.div`
+  height: 65vh;
   width: 100%;
-  margin: 5px 5vw 5px 5vw;
+  margin: 5px 7vw 5px 7vw;
+
+  h1 {
+    font-weight: 800;
+    letter-spacing: 0px;
+    color: #000000;
+  }
+`;
+
+export const HomeImagesCollection = styled.div`
+  display: flex;
+  justify-content: space-between;
 
   img {
-    width: 34vw;
-    height: 28vh;
-    margin-bottom: 6px;
+    width: 28vw;
+    height: 34vh;
+    margin-right: 16px;
+  }
+
+  h2 {
+    font-weight: 600;
+    letter-spacing: 0px;
+    color: #000000;
+  }
+
+  h3 {
+    font-weight: 400;
+    letter-spacing: 0px;
+    color: #000000;
+    width: 100%;
   }
 `;
