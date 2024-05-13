@@ -7,8 +7,7 @@ import {
   HomeColleciton,
   HomeImagesCollection,
 } from "./homeStyle";
-import Navbar from "../../components/NavBar/NavBar";
-import Footer from "../../components/footer/Footer";
+
 import Carousel from "../../components/carousel/Carousel";
 import Grid from "../../components/grid/Grid";
 
@@ -43,7 +42,6 @@ const Home = () => {
   return (
     <>
       <HomeContainer>
-        <Navbar />
         <Search />
         <HomeHashTags>
           <h3>#Paraísopolis</h3>
@@ -80,7 +78,6 @@ const Home = () => {
           <hr />
         </HomeColleciton>
         <Grid />
-        <Footer />
       </HomeContainer>
     </>
   );
