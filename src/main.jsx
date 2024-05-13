@@ -4,16 +4,16 @@ import "swiper/css/navigation";
 import "swiper/css/autoplay";
 import ReactDOM from "react-dom/client";
 import { GlobalStyle } from "./GlobalStyle";
-import Home from "./pages/Home/Home";
+import { AppRoutes } from "./routes/app.routes";
 import Login from "./components/login/Login";
 import Cart from "./components/cart/Cart";
-import GetItem from "./components/getItem/GetItem";
 import { BrowserRouter } from "react-router-dom";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <BrowserRouter>
       <GlobalStyle />
-      <Home />
+      <AppRoutes />
     </BrowserRouter>
+  </React.StrictMode>
 );
