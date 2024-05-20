@@ -8,6 +8,15 @@ export function AppRoutes () {
         <Routes>
             <Route path="/" element= { <Home /> } />
             <Route path="/item/:id" element = { <Item />} />
+            
+            {/* 
+            "/register"
+            "/login"
+            "/collections" + "/:id"
+            "/checkout"
+            "/cart"
+            "/search" + "?query"
+            */}
         </Routes>
     )
 }
