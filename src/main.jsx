@@ -15,9 +15,9 @@ ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <GlobalStyle />
     <Navbar />
-      <BrowserRouter>
-        <AppRoutes />
-      </BrowserRouter>
+    <BrowserRouter>
+      <AppRoutes />
+    </BrowserRouter>
     <Footer />
   </React.StrictMode>
 );

@@ -1,6 +1,7 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 
+
 import { CarouselContainer } from "./carouselStyle";
 import image1 from "../../assets/images/image1.jpg";
 import image2 from "../../assets/images/image2.jpg";
@@ -30,7 +31,7 @@ const Carousel = () => {
   return (
     <>
       <CarouselContainer>
-        <Swiper slidesPerView={1} autoplay={{ delay: 100 }}>
+        <Swiper slidesPerView={1} modules={[Autoplay]} autoplay={{ delay: 3000 }}>
           {listImages.map((item) => (
             <SwiperSlide key={item.id}>
               <img src={item.image} alt={item.description} />
